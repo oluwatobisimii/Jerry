@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { LayoutGroup } from "framer-motion";
-import NavBar from "./NavBar";
 import logoHeader from "../assets/images/logoHeader.png";
 import logoFrame2 from "../assets/images/logoFrame2.png";
 import logoGold from "../assets/images/logoGold.svg";
