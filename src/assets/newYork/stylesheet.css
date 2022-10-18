@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'NewYork';
+    src: url('NewYork.woff2') format('woff2'),
+        url('NewYork.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NewYork';
+    src: url('NewYork.woff2') format('woff2'),
+        url('NewYork.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

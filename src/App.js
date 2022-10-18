@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Gallery from "./components/Gallery";
+import Gift from "./components/Gift";
+import JerryLove from "./components/JerryLove";
+import LizzieLove from "./components/LizzieLove";
+import OurLoveCover from "./components/OurLoveCover";
+import RSVP from "./components/RSVP";
+import RSVPCover from "./components/RSVPCover";
+import ProposalCover from "./components/ProposalCover";
+import Proposal from "./components/Proposal";
+import Home from "./components/Home";
+import GiftCover from "./components/GiftCover";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Home />
+      <div className="">
+        <div className="snap-start">
+          <OurLoveCover />
+        </div>
+        <div className="snap-start">
+          <LizzieLove />
+        </div>
+        <div className="snap-start">
+          <JerryLove />
+        </div>
+      </div>
+      <ProposalCover />
+      <Proposal />
+      <Gallery />
+      <GiftCover />
+      <Gift />
+      <RSVPCover />
+      <RSVP />
+      <Footer />
+    </>
   );
 }
 
