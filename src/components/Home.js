@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { LayoutGroup } from "framer-motion";
-import NavBar from "./NavBar";
 import logoHeader from "../assets/images/logoHeader.png";
 import logoFrame2 from "../assets/images/logoFrame2.png";
 import logoGold from "../assets/images/logoGold.svg";
@@ -150,7 +149,7 @@ const Home = () => {
                   className="text-[64px] xl:text-[150px] text-red-800 font-newYork text-center"
                   ref={text1Ref}
                 >
-                  Lizzy & Jerrie
+                  Lizzie & Jerrie
                 </p>
                 <p
                   className="text-[64px] xl:text-[150px] text-red-800 font-newYork text-center origin-bottom opacity-0"

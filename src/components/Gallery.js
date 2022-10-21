@@ -32,12 +32,6 @@ const Gallery = () => {
   const [overlay, setOverlay] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
 
-  const toggleNotification = () => {
-    if (window.matchMedia("(min-width: 1024px)").matches) {
-      setToggle(!toggle);
-      setOverlay(!overlay);
-    }
-  };
 
   const showOverlay = (image) => {
     setCurrentImage(image);
